@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <script src="app.js" type="module"></script>
-    <title>Toggle Switch</title>
+    <title>Animated Toggle Switch</title>
   </head>
   <body>
     <div class="container">
@@ -21,14 +21,24 @@
         <div class="custom-check">
           <div class="custom-check-thumb"></div>
         </div>
-        <label for="setting1">Activate Setting </label>
+        <label for="setting1">
+          <span id="setting1-unchecked">Activate Setting</span>
+          <span id="setting1-checked" style="display: none"
+            >Setting Activated</span
+          ></label
+        >
       </div>
       <div class="custom-check-wrapper">
         <input type="checkbox" id="setting2" role="switch" />
         <div class="custom-check">
           <div class="custom-check-thumb"></div>
         </div>
-        <label for="setting2">Activate Other Setting </label>
+        <label for="setting2">
+          <span id="setting2-unchecked">Activate Other Setting</span>
+          <span id="setting2-checked" style="display: none"
+            >Setting Activated</span
+          >
+        </label>
       </div>
     </div>
   </body>
