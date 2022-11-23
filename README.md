@@ -1,4 +1,4 @@
 # Animated Toggle Switch
 Modern animated toggle switch
 
-![toggle-switch](https://user-images.githubusercontent.com/30315981/203612594-fd817098-bef0-4747-9034-fd1ec763d3c3.png)
+![toggle-switch](https://user-images.githubusercontent.com/30315981/203653056-67a53357-8eda-41d0-89a7-e1fb92520fd5.png)
